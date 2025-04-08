@@ -49,10 +49,36 @@
 ### 5. **사용자 리뷰 분석**
 - 사용자가 제공한 리뷰를 포함하여 사용자가 보다 정확히 판단할 수 있도록 돕습니다.
 
-## 데이터 준비
-1. **레시피 데이터:** `RAW_recipes.csv` 파일에서 처리.
-2. **사용자 평가:** `ratings.csv` 파일에서 추출.
-3. **전처리:** 열 이름 표준화, 결측값 제거 및 수치 값 정규화.
+## 데이터 
+
+     
+     name                   레시피 이름
+     
+     id                     레피시 식별 id
+     
+     minutes                조리 시간
+
+     contributor_id         레시피 등록 유저 id
+
+     submitted              레시피 등록 일자 
+
+     tags                   레시피 태그 
+
+     nutrition              영양 정보 
+
+     n_steps                조리법 단계 개수
+
+     steps                  조리법 목록 list 
+
+     description            레시피 설명 
+
+     ingredients            사용 재료 list
+
+     n_ingredients          사용 재료 개수   
+
+
+     
+    
 
 ## 학습 과정
 - 모델은 `RecommenderNet` 구조를 사용하여 학습되며, Adam 옵티마이저로 최적화됩니다.
