@@ -9,18 +9,6 @@
 - 다양한 추천 알고리즘을 사용하여 폭넓은 레시피 추천 제공.
 - 협업 필터링 기법을 사용하여 추천 정확도를 높임.
 
-## 프로젝트 구조
-```
-|-- 메뉴 추천 AI
-    |-- data
-        |-- RAW_recipes.csv         # 원본 레시피 데이터셋
-        |-- ratings.csv             # 사용자의 레시피 평가 데이터
-    |-- model
-        |-- RecommenderNet.py       # 신경망 모델 구현 파일
-    |-- notebooks
-        |-- Menu_Recommendation.ipynb # 학습 및 평가 노트북
-    |-- README_ko.md
-```
 
 ## 모델 구조
 이 AI 시스템은 PyTorch로 구현된 **신경망 협업 필터링 모델 (Neural Collaborative Filtering Model)** 을 사용하여 레시피를 추천합니다.
